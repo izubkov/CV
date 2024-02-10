@@ -2,6 +2,120 @@
 <img src="https://img.shields.io/badge/featured%20on-JT-red.svg" height="20" alt="Jekyll Themes Shield" >
 </a>
 
+Other sections example:
+
+``` yaml
+
+projects:
+    title: Projects
+    intro: >
+      You can list your side projects in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    assignments:
+      - title: Velocity
+        link: "#hook"
+        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+
+      - title: DevStudio
+        link: "#"
+        tagline: "A responsive website template designed to help web developers/designers market their services."
+
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+oss:
+    title: OSS Contributions
+    intro: >
+      You can list your open source software contributions in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    contributions:
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+
+publications:
+    title: Publications
+    intro: |
+      You can list your publications in this section. Lorem ipsum dolor sit
+      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+      bibendum fringilla a eu lectus.
+    papers:
+      - title: The Art of Computer Programming
+        link: "#"
+        authors: Donald E. Knuth
+        conference: Addison-Wesley, 1968
+
+      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+        link: "#"
+        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+
+      - title: A syntax directed compiler for Algol 60
+        link: "#"
+        authors: Edgar T. Irons
+        conference: "Comm. ACM 4 (1961), 51–55"
+
+certifications:
+  title: cources & workshops
+  list:
+    - name: CV Builder
+      start: 2020
+      end: 2021
+      organization: Microsoft
+      credentialid: 111-222
+      credentialurl: www.google.com
+      credentialname: Google
+      details: |
+        Details about cert. Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit.
+        Nullam eget orci purus. Nullam ultrices neque nibh.
+        Aenean fermentum, felis vulputate suscipit accumsan,
+        sem enim bibendum augue, sed convallis arcu lacus at dui.
+        Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+        Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+        Praesent venenatis erat non augue suscipit consectetur.
+
+        Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+        fringilla vel. Ut euismod, sem sed vulputate venenatis,
+        justo diam viverra velit, sed rhoncus leo leo eu justo.
+        Suspendisse placerat risus ante, sed porta nisi blandit at.
+    - name: Git learning
+      start: 2019
+      end:
+      organization: Microsoft
+      credentialid: 111-222
+      credentialurl: www.github.com
+      credentialname: Github
+      details: |
+        Older certification. Lorem ipsum dolor sit amet, consectetur
+        adipiscing elit.
+        Nullam eget orci purus. Nullam ultrices neque nibh.
+        Aenean fermentum, felis vulputate suscipit accumsan,
+        sem enim bibendum augue, sed convallis arcu lacus at dui.
+        Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+        Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+        Praesent venenatis erat non augue suscipit consectetur.
+```
+
 # Orbit
 > This theme is designed by Xiaoying Riley at [3rd Wave Media](http://themes.3rdwavemedia.com/).
 > Visit [her website](http://themes.3rdwavemedia.com/) for more themes.
