@@ -12,7 +12,7 @@ sidebar:
 
     # Profile information
     name: ILYA ZUBKOV
-    tagline: Senior Data Engineer
+    tagline: Data Engineer (Python)
     avatar: profile.png  # TODO: #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -24,7 +24,7 @@ sidebar:
     linkedin: ilya-zubkov-forall
     xing: #alandoe
     github: izubkov
-    telegram: # add your nickname without '@' sign
+    telegram: izubkov_forall # add your nickname without '@' sign
     gitlab:
     bitbucket:
     twitter: # '@webjeda'
@@ -63,19 +63,7 @@ sidebar:
 career-profile:
     title: Career Profile
     summary: |
-      I’m a Senior Python Developer / Data Engineer with keen interest in Systems Design and Architecture. 
-      
-      
-      <TODO>
-
-#      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-#      adipiscing elit.
-#      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-#      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-#      Donec quam felis, ultricies nec, pellentesque eu.
-#
-#
-#      Second paragraph if required.
+      I’m a Data Engineer / Python Developer with keen interest in Systems Design and Architecture. 
 
 education:
     title: Education
@@ -83,36 +71,28 @@ education:
       - degree: MSc in Physics
         university: Moscow State University
         time: 2003 - 2009
-        details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
 
 skills:
   title: Skills &amp; Proficiency
 
   toolset:
-    - name: Python & Django
+    - name: Python
       level: 98%
 
-    - name: Javascript & jQuery
+    - name: PostgreSQL
       level: 98%
 
-    - name: Angular
+    - name: Spark
       level: 98%
 
-    - name: HTML5 & CSS
-      level: 95%
-
-    - name: Ruby on Rails
+    - name: Airflow, Docker
       level: 85%
 
-    - name: Sketch & Photoshop
-      level: 60%
+    - name: Systems Design
+      level: 85%
+
+    - name: AWS
+      level: 65%
 
 experiences:
     title: Experiences
@@ -120,17 +100,9 @@ experiences:
       - role: Integration Engineer
         time: 2019 - Present
         company: Mercaux, Barcelona
-        Achievements: |
         details: |
-          Development and support of ETL system which delivers data from multiple clients to Mercaux REST API.
-          
-          Achievements:
-          
-          JupyterHub:
-              
-            - JupyterHub: impl. unified workspace w/ notebooks and data sharing and quick data exploration features
-          
-          Technology:
+          Design and development of robust ETL system specializing in delivery data from B2B clients to Mercaux REST API.
+          Implementation of EDA (exploratory data analysis) workflows within JupyterHub environment.
           
             - Python, PostgreSQL
             - JupyterHub
@@ -139,11 +111,11 @@ experiences:
             - Docker
             - AWS (EMR, EC2, S3, IAM)
 
-      - role: Senior Data Engineer
+      - role: Lead Data Engineer
         time: 2018 - 2019
         company: Mercaux.AI, Hong Kong
         details: |
-          Lead the development of high-load machine learning system which analyses clickstream and matches users to their psychology profile.
+          Lead the development of high-load machine learning system that correlates clickstream users data to their Big 5 psychology traits.
             - Spark, MLLib
             - Tensorflow, Keras
             - tidyverse, pandas, numpy
@@ -153,7 +125,7 @@ experiences:
         time: 2012 - 2017
         company: Kraftool GmbH, Moscow
         details: |
-          Development of multi-agent simulation of an automatic warehouse.
+          Design and development of a multi-agent simulation for an automatic warehouse.
             - numpy, networkx, matplotlib
             - PyQt
             - Redis
@@ -162,7 +134,7 @@ experiences:
         time: 2009 - 2011
         company: OAO “Brit”, Moscow
         details: |
-          Development of a game portal as a part of a in-house social network project. 3D games development.
+          Development of a game portal as a part of an in-house social network project. 3D games development.
             - Erlang
             - RabbitMQ
             - WebGL, Blender
@@ -175,6 +147,30 @@ experiences:
             - C++
             - Matlab
             - LabView
+
+certifications:
+  title: cources & workshops
+  list:
+    - name: Computer System Engineering (6.033)
+      start: 2019
+      end:
+      organization: Massachusetts Institute of Technology
+
+    - name: SAT/STM Solving (PS2 SS 2018 703048)
+      start: 2018
+      end:
+      organization: University of Innsbruck (Department of Computer Science)
+
+    - name: CMU Deep Learning (CMU 11-785)
+      start: 2018
+      end:
+      organization: Carnegie Mellon University
+
+    - name: PPAML-2016
+      start: 2016
+      end:
+      organization: Galois inc.
+      credentialurl: https://probmods.github.io/ppaml2016/
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
