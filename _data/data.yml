@@ -31,7 +31,7 @@ sidebar:
     stack-overflow: # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
-    pdf: http://www.africau.edu/images/default/sample.pdf # TODO: make pdf
+    pdf: https://github.com/izubkov/izubkov.github.io/blob/master/ilya-zubkov-cv.pdf # use web2pdfconvert.com
 
     languages:
       title: Languages
