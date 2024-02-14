@@ -121,14 +121,16 @@ experiences:
           Lead the development of high-load machine learning system that correlates clickstream users data to their Big 5 psychology traits.
             - Spark, MLLib
             - Tensorflow, Keras
+            - Cloud Haskell
             - tidyverse, pandas, numpy
             - AWS (EMR, EC2, S3)
 
-      - role: Software Developer
+      - role: Haskell Software Developer
         time: 2012 - 2017
         company: Kraftool GmbH, Moscow
         details: |
           Design and development of a multi-agent simulation for an automatic warehouse.
+            - Haskell ecosystem
             - numpy, networkx, matplotlib
             - PyQt
             - Redis
